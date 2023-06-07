@@ -1,4 +1,4 @@
-export const Prog =()=>{
+export const Progressive Nesting =()=>{
 
     type K = { [key:string]:Array<any> | K}
 

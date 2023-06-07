@@ -10,10 +10,10 @@ I realised the nested objects have similar structure, in terms of stack memory u
 
 I also made a code that makes a binary tree in a similar manner. The outputted object looks like  {A":{"A1":{"A21":{}, "A22":{}},"B1":{"B2":{}, "B22":{}}}} and so on. The code, I hate it. It's clunky and traversing through the objects is a real bastard.
 
-The style sheet for the code is garbage also.
-
 I have also made dynamic regressive nesting which requires a slightly more laborious method. The output looks like: {"A":{"B":{"C":{"D"}}}}}}. 
 
 Whereas progressive nesting nests the earlier object inside the newer object i.e. {"A":{}} -> {"B":{"A":{}}  regressive nesting nests new objects inside he previous objects i.e. {"A":{}} -> {"A":{"B":{}} I also hate this code.
+
+The style sheet for the code is garbage also.
 
  
